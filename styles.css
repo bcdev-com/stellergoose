@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Texturina:ital,opsz,wght@0,12..72,100..900;1,12..72,100..900&display=swap');
+
 *, *::before, *::after {
     box-sizing: border-box;
     font-family: system-ui;
 }
 pre, code {
     font-family: 'Cascadia Mono', Consolas, ui-monospace, monospace;
+}
+h1, h2, h3 {
+    font-family: "Texturina", serif;
+    font-optical-sizing: auto;
+    font-weight: 450;
+    font-style: normal; 
 }
 
 body {
